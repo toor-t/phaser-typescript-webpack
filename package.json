@@ -1,0 +1,25 @@
+{
+	"name": "phaser-typescript-webpack",
+	"version": "1.0.0",
+	"description": "Phaser Typescript Webpack",
+	"main": "dist/index.js",
+	"scripts": {
+		"start": "webpack-dev-server -d --inline --progress --no-info --host 0.0.0.0 --port 9000",
+		"build": "rimraf ./dist && webpack -p"
+	},
+	"author": "toor-t",
+	"license": "MIT",
+	"devDependencies": {
+		"copy-webpack-plugin": "^3.0.1",
+		"expose-loader": "^0.7.4",
+		"html-webpack-plugin": "^2.30.1",
+		"phaser": "^2.6.2",
+		"rimraf": "^2.6.2",
+		"ts-loader": "^0.8.2",
+		"typescript": "^2.7.2",
+		"webpack": "^3.11.0",
+		"webpack-dev-server": "^1.16.5",
+		"phaser-ce": "^2.10.0",
+		"webfontloader": "^1.6.28"
+	}
+}
