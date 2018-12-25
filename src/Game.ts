@@ -1,6 +1,5 @@
 /// <reference path="../node_modules/phaser/typescript/phaser.d.ts"/>
 /// <reference path="../node_modules/phaser/typescript/pixi.d.ts"/>
-'use strict';
 import * as Phaser from 'phaser';
 import Config from './config';
 
